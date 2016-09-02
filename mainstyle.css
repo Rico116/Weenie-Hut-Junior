@@ -1,10 +1,14 @@
 #navbar li {
-    background-color: yellow;
-     display: inline-block;
+    background-color: white;
+    display: inline-block;
     padding: 30px;
     border: 2px solid black;
 }
 
+body {
+    background-image: url("http://www.zryxsw.com/data/out/38/665894-grey-wallpaper.jpg");
+    background-color: gray;
+}
 
 
 
