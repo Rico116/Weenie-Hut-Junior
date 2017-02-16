@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>To Do List</title>
-    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="mainstyle.css" type="text/css">
+   
 </head>
 <body>
-    `
+    
     <!-- Navbar Starts Here -->    
     <ul id="navbar">     
         <li> <a href= "aboutme.html"> About Me</a></li>
@@ -18,40 +19,35 @@
         <li> <a href= "calculator.html"> Calculator</a></li>
         <li><a href= "todolist.html"> To Do List </a> </li>
      </ul>   
-     <!-- Navbar Ends Here --> 
-    
-    <input type= "text">
-    
-    <select id= "stylecss" style="width: 60px; height: 20px;">
-        <option> White </option>
-        <option> Red </option>
-        <option> Black </option>
-        <option> Blue </option>
+     <!-- Navbar Ends Here -->
 
+<div id="list">
+    <input id="usertext" type="text"/>
     
-    <div> Task </div>
+        <select id="colordrop">
+            <option value="red"> Red </option>
+            <option value="blue"> Blue </option>
+            <option value="white"> White </option>
+            <option value="black"> Black </option>
+        </select>    
+ 
+
+<input id="addButton" type="button" value="Add"/>
+<input id="cleartext" type="button" onclick="cleartext" value="Clear"/> 
+
+
+<p> Click To Remove </p>
+
+    <div id="NewText">
+        
+    </div>
     
-    <input id="addTask" type="button" value="Add Item" style="width: 70px; height: 20px;">
+</div>
+
+<script type="text/javascript" src="todolist.js"></script>
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-     <script type="text/javascript" src="todolist.js"></script>
-    
+
 </body>
-</html>,
+</html>
